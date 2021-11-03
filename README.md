@@ -9,7 +9,7 @@
 2. `docker-compose up --build` 
 3. When all services are up -- upload default configs (grafana dashboard, datasource and init data) by running `./run.sh`
 4. open grafana: [http://localhost:3000/](http://localhost:3000/) (admin/admin) => Dashboards => Manage => select "Custom Stats" dashboard 
-5. run ab test for details: `ab -n 5000 -c 500 -g ab_out.txt http://localhost:8080/api/v1/users`
+5. run ab test for details: `ab -n 5000 -c 500 -g ab_out.txt http://localhost`
 
 ### Result
 ![grafana1](screenshot/grafana1.png)
