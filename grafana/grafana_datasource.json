@@ -1,0 +1,22 @@
+{
+    "name":"InfluxDB",
+    "type":"influxdb",
+    "access":"proxy",
+    "url":"http://influxdb:8086",
+    "isDefault":true,
+    "jsonData":
+    {
+        "version":"Flux",
+        "httpMode":"POST",
+        "httpHeaderName1":"Authorization",
+        "defaultBucket":"todd-bucket",
+        "organization":"todd-org"
+    },
+    "version":1,
+    "readOnly":false,
+    "secureJsonData":
+    {
+        "httpHeaderValue1":"Token aSuaMwr0AK94SCQSgmh9_AGsAXJnJYttBcdeCL8G7dkk68asfHlAnQ974J_gusPCSxbMks3W8G5yScxPe96S0Q==",
+        "token":"12345678"
+    }
+}
