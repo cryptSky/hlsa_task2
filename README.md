@@ -12,5 +12,5 @@
 5. run ab test for details: `ab -n 5000 -c 500 -g ab_out.txt http://localhost:8080/api/v1/users`
 
 ### Result
-![stats1](img/grafana1.png)
+![grafana1](screenshot/grafana1.png)
 
